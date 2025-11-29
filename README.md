@@ -9,8 +9,8 @@ import os
 ```python
 env = gym.make("CartPole-v1")
 ```
-#基于公式的仿真，输出环境ID为："CartPole-v1"的物理环境
-#包括：[小车位置, 小车速度, 杆子角度, 杆顶速度]
+基于公式的仿真，输出环境ID为："CartPole-v1"的物理环境
+包括：[小车位置, 小车速度, 杆子角度, 杆顶速度]
 
 # 2. 定义模型
 # 我们使用 PPO 算法，MlpPolicy 表示使用全连接神经网络
